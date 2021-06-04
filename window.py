@@ -1,13 +1,9 @@
 from os import name
 from typing import Any
 from chord_extractor.extractors import Chordino
-from chord_extractor import clear_conversion_cache, LabelledChordSequence
-#import pdfkit
-#import fitz
 import json
 import chord_merger
 import name_song
-import get_pdf
 import chords_scraper
 import sys
 import PySimpleGUI as sg
@@ -148,7 +144,6 @@ while True:
             chords_scraped_file = "chordsText.txt"
             chords_merged_file = "chordsMerged.json"
 
-            #isso tudo pode(deve?) ser transportado para funções
 
             #splitting into guitar/other sound to make the chord extraction easier
             #FILENAME = /PATH/OTHER.WAV
@@ -181,16 +176,9 @@ while True:
                 sys.stdout = open(chords_scraped_file, "w")
                 url = chords_scraper.scrape_chords(song_name, song_artist)
                 sys.stdout.close()
-                #try:
-                #    pdfkit.from_url(url, 'out.pdf')
-                #except:
-                #    pass
+
                 window["-TOUT2-"].update(open(chords_scraped_file).read())
-                #não precisa de 'doc'
-                #doc = fitz.open('out.pdf')
-                #page_count = len(doc)
-                #data = get_pdf.get_page(cur_page, 'out.pdf')
-                #window["-IMAGE-"].update(data=data)
+
             else:
                 #clean the file if this song will not use it
                 sys.stdout = open(chords_scraped_file, "w")
@@ -201,10 +189,13 @@ while True:
                 window["-TOUT2-"].update(open(chords_scraped_file).read())
                 
 
-            
+            #merge chords from scraped and extracted files to make a better document
+            #(one that features timestamps AND correct chords taken from the internet)
+            #put the log of the merging of files in the "chordsMerge.txt"
             sys.stdout = open("chordsMerge.txt", "w")
             merged_chords = chord_merger.merge(chords_extracted_file, chords_scraped_file)
             sys.stdout.close()
+            #jsonifying the merged chords
             merged_chords = json.dumps(merged_chords)
             sys.stdout = open(chords_merged_file, "w")
             print(merged_chords)
@@ -217,21 +208,6 @@ while True:
         except:
             
             pass
-
-    #elif event == "Next":
-    #            cur_page +=1
-    #            if cur_page >= page_count:  # wrap around
-    #                cur_page = 0
-    #            data = get_pdf.get_page(cur_page, 'out.pdf')
-    #            window["-IMAGE-"].update(data=data)
-                
-                
-    #elif event == "Prev":
-    #            cur_page -=1
-    #            if cur_page < 0:  # we show conventional page numbers
-    #                cur_page = page_count
-    #            data = get_pdf.get_page(cur_page, 'out.pdf')
-    #            window["-IMAGE-"].update(data=data)
                    
 
 

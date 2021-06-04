@@ -1,326 +1,346 @@
 chord dictionary (made with scraped chords):
-['Em', 'G', 'C', 'D']
+['C', 'G', 'D', 'Em']
 chords extracted:
 [{'estimated_chord': 'N', 'timestamp': 0.371519274}, {'estimated_chord': 'G', 'timestamp': 1.207437641}, {'estimated_chord': 'Em', 'timestamp': 3.90095238}, {'estimated_chord': 'Cmaj7', 'timestamp': 5.94430839}, {'estimated_chord': 'D', 'timestamp': 8.173424036}, {'estimated_chord': 'G', 'timestamp': 10.123900226}, {'estimated_chord': 'Em', 'timestamp': 12.445895691}, {'estimated_chord': 'C', 'timestamp': 14.303492063}, {'estimated_chord': 'D', 'timestamp': 16.625487528}, {'estimated_chord': 'G', 'timestamp': 18.575963718}, {'estimated_chord': 'N', 'timestamp': 21.269478458}, {'estimated_chord': 'G', 'timestamp': 22.569795918}, {'estimated_chord': 'Em', 'timestamp': 24.984671201}, {'estimated_chord': 'C', 'timestamp': 27.02802721}, {'estimated_chord': 'D', 'timestamp': 29.164263038}, {'estimated_chord': 'G', 'timestamp': 31.114739229}, {'estimated_chord': 'Em7', 'timestamp': 32.507936507}, {'estimated_chord': 'C', 'timestamp': 35.294331065}, {'estimated_chord': 'D', 'timestamp': 37.523446712}, {'estimated_chord': 'G', 'timestamp': 39.473922902}, {'estimated_chord': 'Em', 'timestamp': 41.703038548}, {'estimated_chord': 'C', 'timestamp': 43.746394557}, {'estimated_chord': 'D', 'timestamp': 45.882630385}, {'estimated_chord': 'G', 'timestamp': 47.647346938}, {'estimated_chord': 'Em7', 'timestamp': 50.15510204}, {'estimated_chord': 'C', 'timestamp': 52.198458049}, {'estimated_chord': 'D', 'timestamp': 54.241814058}, {'estimated_chord': 'G', 'timestamp': 56.285170068}, {'estimated_chord': 'Am7b5', 'timestamp': 57.771247165}, {'estimated_chord': 'Gmaj7', 'timestamp': 60.371882086}, {'estimated_chord': 'Em', 'timestamp': 62.879637188}, {'estimated_chord': 'C', 'timestamp': 64.922993197}, {'estimated_chord': 'D', 'timestamp': 66.966349206}, {'estimated_chord': 'G', 'timestamp': 69.102585034}, {'estimated_chord': 'Em7', 'timestamp': 70.310022675}, {'estimated_chord': 'C', 'timestamp': 73.375056689}, {'estimated_chord': 'D', 'timestamp': 75.418412698}, {'estimated_chord': 'G', 'timestamp': 77.368888888}, {'estimated_chord': 'F#m7b5', 'timestamp': 79.969523809}, {'estimated_chord': 'G', 'timestamp': 81.362721088}, {'estimated_chord': 'Em', 'timestamp': 83.777596371}, {'estimated_chord': 'C', 'timestamp': 85.82095238}, {'estimated_chord': 'D', 'timestamp': 88.050068027}, {'estimated_chord': 'G', 'timestamp': 90.000544217}, {'estimated_chord': 'Em7', 'timestamp': 92.136780045}, {'estimated_chord': 'C', 'timestamp': 94.273015873}, {'estimated_chord': 'D', 'timestamp': 96.502131519}, {'estimated_chord': 'G', 'timestamp': 98.359727891}, {'estimated_chord': 'Em7', 'timestamp': 100.588843537}, {'estimated_chord': 'C', 'timestamp': 102.632199546}, {'estimated_chord': 'D', 'timestamp': 104.861315192}, {'estimated_chord': 'G', 'timestamp': 106.904671201}, {'estimated_chord': 'Em7', 'timestamp': 108.94802721}, {'estimated_chord': 'C', 'timestamp': 111.084263038}, {'estimated_chord': 'D', 'timestamp': 113.127619047}, {'estimated_chord': 'G6', 'timestamp': 115.263854875}, {'estimated_chord': 'Em', 'timestamp': 117.400090702}, {'estimated_chord': 'C', 'timestamp': 119.443446712}, {'estimated_chord': 'D', 'timestamp': 121.486802721}, {'estimated_chord': 'G', 'timestamp': 123.623038548}, {'estimated_chord': 'Abmaj7', 'timestamp': 124.458956916}, {'estimated_chord': 'G', 'timestamp': 127.616870748}, {'estimated_chord': 'Em', 'timestamp': 130.031746031}, {'estimated_chord': 'C', 'timestamp': 132.07510204}, {'estimated_chord': 'D6', 'timestamp': 134.118458049}, {'estimated_chord': 'G', 'timestamp': 136.06893424}, {'estimated_chord': 'Em', 'timestamp': 138.01941043}, {'estimated_chord': 'C', 'timestamp': 140.341405895}, {'estimated_chord': 'D', 'timestamp': 142.570521541}, {'estimated_chord': 'G', 'timestamp': 144.520997732}, {'estimated_chord': 'N', 'timestamp': 145.449795918}, {'estimated_chord': 'G', 'timestamp': 148.60770975}, {'estimated_chord': 'Em', 'timestamp': 150.929705215}, {'estimated_chord': 'C', 'timestamp': 152.973061224}, {'estimated_chord': 'D', 'timestamp': 155.109297052}, {'estimated_chord': 'G', 'timestamp': 156.966893424}, {'estimated_chord': 'Em', 'timestamp': 159.288888888}, {'estimated_chord': 'C', 'timestamp': 161.239365079}, {'estimated_chord': 'D', 'timestamp': 163.468480725}, {'estimated_chord': 'G', 'timestamp': 165.233197278}, {'estimated_chord': 'Em', 'timestamp': 167.648072562}, {'estimated_chord': 'C', 'timestamp': 169.691428571}, {'estimated_chord': 'D', 'timestamp': 171.73478458}, {'estimated_chord': 'G', 'timestamp': 173.499501133}, {'estimated_chord': 'Em', 'timestamp': 176.007256235}, {'estimated_chord': 'C', 'timestamp': 178.050612244}, {'estimated_chord': 'D', 'timestamp': 180.186848072}, {'estimated_chord': 'G', 'timestamp': 182.3230839}, {'estimated_chord': 'N', 'timestamp': 185.109478458}]
 for chord: G number 1-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Em number 2-----------------------------------
+ the new closest chord is:C with a distance of: 5.5
+ the new closest chord is:D with a distance of: 2.5
  the new closest chord is:Em with a distance of: 0.0
   the final closest chord is:Em with a distance of: 0.0
 for chord: Cmaj7 number 3-----------------------------------
- the new closest chord is:Em with a distance of: 7.5
  the new closest chord is:C with a distance of: 0.0
   the final closest chord is:C with a distance of: 0.0
 for chord: D number 4-----------------------------------
- the new closest chord is:Em with a distance of: 2.5
+ the new closest chord is:C with a distance of: 3.0
  the new closest chord is:D with a distance of: 0.0
   the final closest chord is:D with a distance of: 0.0
 for chord: G number 5-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Em number 6-----------------------------------
+ the new closest chord is:C with a distance of: 5.5
+ the new closest chord is:D with a distance of: 2.5
  the new closest chord is:Em with a distance of: 0.0
   the final closest chord is:Em with a distance of: 0.0
 for chord: C number 7-----------------------------------
- the new closest chord is:Em with a distance of: 7.5
  the new closest chord is:C with a distance of: 0.0
   the final closest chord is:C with a distance of: 0.0
 for chord: D number 8-----------------------------------
- the new closest chord is:Em with a distance of: 2.5
+ the new closest chord is:C with a distance of: 3.0
  the new closest chord is:D with a distance of: 0.0
   the final closest chord is:D with a distance of: 0.0
 for chord: G number 9-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: G number 11-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Em number 12-----------------------------------
+ the new closest chord is:C with a distance of: 5.5
+ the new closest chord is:D with a distance of: 2.5
  the new closest chord is:Em with a distance of: 0.0
   the final closest chord is:Em with a distance of: 0.0
 for chord: C number 13-----------------------------------
- the new closest chord is:Em with a distance of: 7.5
  the new closest chord is:C with a distance of: 0.0
   the final closest chord is:C with a distance of: 0.0
 for chord: D number 14-----------------------------------
- the new closest chord is:Em with a distance of: 2.5
+ the new closest chord is:C with a distance of: 3.0
  the new closest chord is:D with a distance of: 0.0
   the final closest chord is:D with a distance of: 0.0
 for chord: G number 15-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Em7 number 16-----------------------------------
+ the new closest chord is:C with a distance of: 5.5
+ the new closest chord is:D with a distance of: 2.5
  the new closest chord is:Em with a distance of: 0.0
   the final closest chord is:Em with a distance of: 0.0
 for chord: C number 17-----------------------------------
- the new closest chord is:Em with a distance of: 7.5
  the new closest chord is:C with a distance of: 0.0
   the final closest chord is:C with a distance of: 0.0
 for chord: D number 18-----------------------------------
- the new closest chord is:Em with a distance of: 2.5
+ the new closest chord is:C with a distance of: 3.0
  the new closest chord is:D with a distance of: 0.0
   the final closest chord is:D with a distance of: 0.0
 for chord: G number 19-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Em number 20-----------------------------------
+ the new closest chord is:C with a distance of: 5.5
+ the new closest chord is:D with a distance of: 2.5
  the new closest chord is:Em with a distance of: 0.0
   the final closest chord is:Em with a distance of: 0.0
 for chord: C number 21-----------------------------------
- the new closest chord is:Em with a distance of: 7.5
  the new closest chord is:C with a distance of: 0.0
   the final closest chord is:C with a distance of: 0.0
 for chord: D number 22-----------------------------------
- the new closest chord is:Em with a distance of: 2.5
+ the new closest chord is:C with a distance of: 3.0
  the new closest chord is:D with a distance of: 0.0
   the final closest chord is:D with a distance of: 0.0
 for chord: G number 23-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Em7 number 24-----------------------------------
+ the new closest chord is:C with a distance of: 5.5
+ the new closest chord is:D with a distance of: 2.5
  the new closest chord is:Em with a distance of: 0.0
   the final closest chord is:Em with a distance of: 0.0
 for chord: C number 25-----------------------------------
- the new closest chord is:Em with a distance of: 7.5
  the new closest chord is:C with a distance of: 0.0
   the final closest chord is:C with a distance of: 0.0
 for chord: D number 26-----------------------------------
- the new closest chord is:Em with a distance of: 2.5
+ the new closest chord is:C with a distance of: 3.0
  the new closest chord is:D with a distance of: 0.0
   the final closest chord is:D with a distance of: 0.0
 for chord: G number 27-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Am7b5 number 28-----------------------------------
- the new closest chord is:Em with a distance of: 7.0
+ the new closest chord is:C with a distance of: 5.5
  the new closest chord is:G with a distance of: 2.0
   the final closest chord is:G with a distance of: 2.0
 for chord: Gmaj7 number 29-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Em number 30-----------------------------------
+ the new closest chord is:C with a distance of: 5.5
+ the new closest chord is:D with a distance of: 2.5
  the new closest chord is:Em with a distance of: 0.0
   the final closest chord is:Em with a distance of: 0.0
 for chord: C number 31-----------------------------------
- the new closest chord is:Em with a distance of: 7.5
  the new closest chord is:C with a distance of: 0.0
   the final closest chord is:C with a distance of: 0.0
 for chord: D number 32-----------------------------------
- the new closest chord is:Em with a distance of: 2.5
+ the new closest chord is:C with a distance of: 3.0
  the new closest chord is:D with a distance of: 0.0
   the final closest chord is:D with a distance of: 0.0
 for chord: G number 33-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Em7 number 34-----------------------------------
+ the new closest chord is:C with a distance of: 5.5
+ the new closest chord is:D with a distance of: 2.5
  the new closest chord is:Em with a distance of: 0.0
   the final closest chord is:Em with a distance of: 0.0
 for chord: C number 35-----------------------------------
- the new closest chord is:Em with a distance of: 7.5
  the new closest chord is:C with a distance of: 0.0
   the final closest chord is:C with a distance of: 0.0
 for chord: D number 36-----------------------------------
- the new closest chord is:Em with a distance of: 2.5
+ the new closest chord is:C with a distance of: 3.0
  the new closest chord is:D with a distance of: 0.0
   the final closest chord is:D with a distance of: 0.0
 for chord: G number 37-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: F#m7b5 number 38-----------------------------------
- the new closest chord is:Em with a distance of: 2.5
-  the final closest chord is:Em with a distance of: 2.5
+ the new closest chord is:C with a distance of: 8.0
+ the new closest chord is:G with a distance of: 2.5
+  the final closest chord is:G with a distance of: 2.5
 for chord: G number 39-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Em number 40-----------------------------------
+ the new closest chord is:C with a distance of: 5.5
+ the new closest chord is:D with a distance of: 2.5
  the new closest chord is:Em with a distance of: 0.0
   the final closest chord is:Em with a distance of: 0.0
 for chord: C number 41-----------------------------------
- the new closest chord is:Em with a distance of: 7.5
  the new closest chord is:C with a distance of: 0.0
   the final closest chord is:C with a distance of: 0.0
 for chord: D number 42-----------------------------------
- the new closest chord is:Em with a distance of: 2.5
+ the new closest chord is:C with a distance of: 3.0
  the new closest chord is:D with a distance of: 0.0
   the final closest chord is:D with a distance of: 0.0
 for chord: G number 43-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Em7 number 44-----------------------------------
+ the new closest chord is:C with a distance of: 5.5
+ the new closest chord is:D with a distance of: 2.5
  the new closest chord is:Em with a distance of: 0.0
   the final closest chord is:Em with a distance of: 0.0
 for chord: C number 45-----------------------------------
- the new closest chord is:Em with a distance of: 7.5
  the new closest chord is:C with a distance of: 0.0
   the final closest chord is:C with a distance of: 0.0
 for chord: D number 46-----------------------------------
- the new closest chord is:Em with a distance of: 2.5
+ the new closest chord is:C with a distance of: 3.0
  the new closest chord is:D with a distance of: 0.0
   the final closest chord is:D with a distance of: 0.0
 for chord: G number 47-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Em7 number 48-----------------------------------
+ the new closest chord is:C with a distance of: 5.5
+ the new closest chord is:D with a distance of: 2.5
  the new closest chord is:Em with a distance of: 0.0
   the final closest chord is:Em with a distance of: 0.0
 for chord: C number 49-----------------------------------
- the new closest chord is:Em with a distance of: 7.5
  the new closest chord is:C with a distance of: 0.0
   the final closest chord is:C with a distance of: 0.0
 for chord: D number 50-----------------------------------
- the new closest chord is:Em with a distance of: 2.5
+ the new closest chord is:C with a distance of: 3.0
  the new closest chord is:D with a distance of: 0.0
   the final closest chord is:D with a distance of: 0.0
 for chord: G number 51-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Em7 number 52-----------------------------------
+ the new closest chord is:C with a distance of: 5.5
+ the new closest chord is:D with a distance of: 2.5
  the new closest chord is:Em with a distance of: 0.0
   the final closest chord is:Em with a distance of: 0.0
 for chord: C number 53-----------------------------------
- the new closest chord is:Em with a distance of: 7.5
  the new closest chord is:C with a distance of: 0.0
   the final closest chord is:C with a distance of: 0.0
 for chord: D number 54-----------------------------------
- the new closest chord is:Em with a distance of: 2.5
+ the new closest chord is:C with a distance of: 3.0
  the new closest chord is:D with a distance of: 0.0
   the final closest chord is:D with a distance of: 0.0
 for chord: G6 number 55-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Em number 56-----------------------------------
+ the new closest chord is:C with a distance of: 5.5
+ the new closest chord is:D with a distance of: 2.5
  the new closest chord is:Em with a distance of: 0.0
   the final closest chord is:Em with a distance of: 0.0
 for chord: C number 57-----------------------------------
- the new closest chord is:Em with a distance of: 7.5
  the new closest chord is:C with a distance of: 0.0
   the final closest chord is:C with a distance of: 0.0
 for chord: D number 58-----------------------------------
- the new closest chord is:Em with a distance of: 2.5
+ the new closest chord is:C with a distance of: 3.0
  the new closest chord is:D with a distance of: 0.0
   the final closest chord is:D with a distance of: 0.0
 for chord: G number 59-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Abmaj7 number 60-----------------------------------
- the new closest chord is:Em with a distance of: 6.5
+ the new closest chord is:C with a distance of: 8.0
  the new closest chord is:G with a distance of: 1.5
   the final closest chord is:G with a distance of: 1.5
 for chord: G number 61-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Em number 62-----------------------------------
+ the new closest chord is:C with a distance of: 5.5
+ the new closest chord is:D with a distance of: 2.5
  the new closest chord is:Em with a distance of: 0.0
   the final closest chord is:Em with a distance of: 0.0
 for chord: C number 63-----------------------------------
- the new closest chord is:Em with a distance of: 7.5
  the new closest chord is:C with a distance of: 0.0
   the final closest chord is:C with a distance of: 0.0
 for chord: D6 number 64-----------------------------------
- the new closest chord is:Em with a distance of: 2.5
+ the new closest chord is:C with a distance of: 3.0
  the new closest chord is:D with a distance of: 0.0
   the final closest chord is:D with a distance of: 0.0
 for chord: G number 65-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Em number 66-----------------------------------
+ the new closest chord is:C with a distance of: 5.5
+ the new closest chord is:D with a distance of: 2.5
  the new closest chord is:Em with a distance of: 0.0
   the final closest chord is:Em with a distance of: 0.0
 for chord: C number 67-----------------------------------
- the new closest chord is:Em with a distance of: 7.5
  the new closest chord is:C with a distance of: 0.0
   the final closest chord is:C with a distance of: 0.0
 for chord: D number 68-----------------------------------
- the new closest chord is:Em with a distance of: 2.5
+ the new closest chord is:C with a distance of: 3.0
  the new closest chord is:D with a distance of: 0.0
   the final closest chord is:D with a distance of: 0.0
 for chord: G number 69-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: G number 71-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Em number 72-----------------------------------
+ the new closest chord is:C with a distance of: 5.5
+ the new closest chord is:D with a distance of: 2.5
  the new closest chord is:Em with a distance of: 0.0
   the final closest chord is:Em with a distance of: 0.0
 for chord: C number 73-----------------------------------
- the new closest chord is:Em with a distance of: 7.5
  the new closest chord is:C with a distance of: 0.0
   the final closest chord is:C with a distance of: 0.0
 for chord: D number 74-----------------------------------
- the new closest chord is:Em with a distance of: 2.5
+ the new closest chord is:C with a distance of: 3.0
  the new closest chord is:D with a distance of: 0.0
   the final closest chord is:D with a distance of: 0.0
 for chord: G number 75-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Em number 76-----------------------------------
+ the new closest chord is:C with a distance of: 5.5
+ the new closest chord is:D with a distance of: 2.5
  the new closest chord is:Em with a distance of: 0.0
   the final closest chord is:Em with a distance of: 0.0
 for chord: C number 77-----------------------------------
- the new closest chord is:Em with a distance of: 7.5
  the new closest chord is:C with a distance of: 0.0
   the final closest chord is:C with a distance of: 0.0
 for chord: D number 78-----------------------------------
- the new closest chord is:Em with a distance of: 2.5
+ the new closest chord is:C with a distance of: 3.0
  the new closest chord is:D with a distance of: 0.0
   the final closest chord is:D with a distance of: 0.0
 for chord: G number 79-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Em number 80-----------------------------------
+ the new closest chord is:C with a distance of: 5.5
+ the new closest chord is:D with a distance of: 2.5
  the new closest chord is:Em with a distance of: 0.0
   the final closest chord is:Em with a distance of: 0.0
 for chord: C number 81-----------------------------------
- the new closest chord is:Em with a distance of: 7.5
  the new closest chord is:C with a distance of: 0.0
   the final closest chord is:C with a distance of: 0.0
 for chord: D number 82-----------------------------------
- the new closest chord is:Em with a distance of: 2.5
+ the new closest chord is:C with a distance of: 3.0
  the new closest chord is:D with a distance of: 0.0
   the final closest chord is:D with a distance of: 0.0
 for chord: G number 83-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 for chord: Em number 84-----------------------------------
+ the new closest chord is:C with a distance of: 5.5
+ the new closest chord is:D with a distance of: 2.5
  the new closest chord is:Em with a distance of: 0.0
   the final closest chord is:Em with a distance of: 0.0
 for chord: C number 85-----------------------------------
- the new closest chord is:Em with a distance of: 7.5
  the new closest chord is:C with a distance of: 0.0
   the final closest chord is:C with a distance of: 0.0
 for chord: D number 86-----------------------------------
- the new closest chord is:Em with a distance of: 2.5
+ the new closest chord is:C with a distance of: 3.0
  the new closest chord is:D with a distance of: 0.0
   the final closest chord is:D with a distance of: 0.0
 for chord: G number 87-----------------------------------
- the new closest chord is:Em with a distance of: 5.0
+ the new closest chord is:C with a distance of: 8.5
  the new closest chord is:G with a distance of: 0.0
   the final closest chord is:G with a distance of: 0.0
 chords merged (made by merging extracted and scraped chords):
-[{'estimated_chord': 'N', 'timestamp': 0.371519274}, {'estimated_chord': 'G', 'timestamp': 1.207437641}, {'estimated_chord': 'Em', 'timestamp': 3.90095238}, {'estimated_chord': 'C', 'timestamp': 5.94430839}, {'estimated_chord': 'D', 'timestamp': 8.173424036}, {'estimated_chord': 'G', 'timestamp': 10.123900226}, {'estimated_chord': 'Em', 'timestamp': 12.445895691}, {'estimated_chord': 'C', 'timestamp': 14.303492063}, {'estimated_chord': 'D', 'timestamp': 16.625487528}, {'estimated_chord': 'G', 'timestamp': 18.575963718}, {'estimated_chord': 'N', 'timestamp': 21.269478458}, {'estimated_chord': 'G', 'timestamp': 22.569795918}, {'estimated_chord': 'Em', 'timestamp': 24.984671201}, {'estimated_chord': 'C', 'timestamp': 27.02802721}, {'estimated_chord': 'D', 'timestamp': 29.164263038}, {'estimated_chord': 'G', 'timestamp': 31.114739229}, {'estimated_chord': 'Em', 'timestamp': 32.507936507}, {'estimated_chord': 'C', 'timestamp': 35.294331065}, {'estimated_chord': 'D', 'timestamp': 37.523446712}, {'estimated_chord': 'G', 'timestamp': 39.473922902}, {'estimated_chord': 'Em', 'timestamp': 41.703038548}, {'estimated_chord': 'C', 'timestamp': 43.746394557}, {'estimated_chord': 'D', 'timestamp': 45.882630385}, {'estimated_chord': 'G', 'timestamp': 47.647346938}, {'estimated_chord': 'Em', 'timestamp': 50.15510204}, {'estimated_chord': 'C', 'timestamp': 52.198458049}, {'estimated_chord': 'D', 'timestamp': 54.241814058}, {'estimated_chord': 'G', 'timestamp': 56.285170068}, {'estimated_chord': 'G', 'timestamp': 57.771247165}, {'estimated_chord': 'G', 'timestamp': 60.371882086}, {'estimated_chord': 'Em', 'timestamp': 62.879637188}, {'estimated_chord': 'C', 'timestamp': 64.922993197}, {'estimated_chord': 'D', 'timestamp': 66.966349206}, {'estimated_chord': 'G', 'timestamp': 69.102585034}, {'estimated_chord': 'Em', 'timestamp': 70.310022675}, {'estimated_chord': 'C', 'timestamp': 73.375056689}, {'estimated_chord': 'D', 'timestamp': 75.418412698}, {'estimated_chord': 'G', 'timestamp': 77.368888888}, {'estimated_chord': 'Em', 'timestamp': 79.969523809}, {'estimated_chord': 'G', 'timestamp': 81.362721088}, {'estimated_chord': 'Em', 'timestamp': 83.777596371}, {'estimated_chord': 'C', 'timestamp': 85.82095238}, {'estimated_chord': 'D', 'timestamp': 88.050068027}, {'estimated_chord': 'G', 'timestamp': 90.000544217}, {'estimated_chord': 'Em', 'timestamp': 92.136780045}, {'estimated_chord': 'C', 'timestamp': 94.273015873}, {'estimated_chord': 'D', 'timestamp': 96.502131519}, {'estimated_chord': 'G', 'timestamp': 98.359727891}, {'estimated_chord': 'Em', 'timestamp': 100.588843537}, {'estimated_chord': 'C', 'timestamp': 102.632199546}, {'estimated_chord': 'D', 'timestamp': 104.861315192}, {'estimated_chord': 'G', 'timestamp': 106.904671201}, {'estimated_chord': 'Em', 'timestamp': 108.94802721}, {'estimated_chord': 'C', 'timestamp': 111.084263038}, {'estimated_chord': 'D', 'timestamp': 113.127619047}, {'estimated_chord': 'G', 'timestamp': 115.263854875}, {'estimated_chord': 'Em', 'timestamp': 117.400090702}, {'estimated_chord': 'C', 'timestamp': 119.443446712}, {'estimated_chord': 'D', 'timestamp': 121.486802721}, {'estimated_chord': 'G', 'timestamp': 123.623038548}, {'estimated_chord': 'G', 'timestamp': 124.458956916}, {'estimated_chord': 'G', 'timestamp': 127.616870748}, {'estimated_chord': 'Em', 'timestamp': 130.031746031}, {'estimated_chord': 'C', 'timestamp': 132.07510204}, {'estimated_chord': 'D', 'timestamp': 134.118458049}, {'estimated_chord': 'G', 'timestamp': 136.06893424}, {'estimated_chord': 'Em', 'timestamp': 138.01941043}, {'estimated_chord': 'C', 'timestamp': 140.341405895}, {'estimated_chord': 'D', 'timestamp': 142.570521541}, {'estimated_chord': 'G', 'timestamp': 144.520997732}, {'estimated_chord': 'N', 'timestamp': 145.449795918}, {'estimated_chord': 'G', 'timestamp': 148.60770975}, {'estimated_chord': 'Em', 'timestamp': 150.929705215}, {'estimated_chord': 'C', 'timestamp': 152.973061224}, {'estimated_chord': 'D', 'timestamp': 155.109297052}, {'estimated_chord': 'G', 'timestamp': 156.966893424}, {'estimated_chord': 'Em', 'timestamp': 159.288888888}, {'estimated_chord': 'C', 'timestamp': 161.239365079}, {'estimated_chord': 'D', 'timestamp': 163.468480725}, {'estimated_chord': 'G', 'timestamp': 165.233197278}, {'estimated_chord': 'Em', 'timestamp': 167.648072562}, {'estimated_chord': 'C', 'timestamp': 169.691428571}, {'estimated_chord': 'D', 'timestamp': 171.73478458}, {'estimated_chord': 'G', 'timestamp': 173.499501133}, {'estimated_chord': 'Em', 'timestamp': 176.007256235}, {'estimated_chord': 'C', 'timestamp': 178.050612244}, {'estimated_chord': 'D', 'timestamp': 180.186848072}, {'estimated_chord': 'G', 'timestamp': 182.3230839}, {'estimated_chord': 'N', 'timestamp': 185.109478458}]
+[{'estimated_chord': 'N', 'timestamp': 0.371519274}, {'estimated_chord': 'G', 'timestamp': 1.207437641}, {'estimated_chord': 'Em', 'timestamp': 3.90095238}, {'estimated_chord': 'C', 'timestamp': 5.94430839}, {'estimated_chord': 'D', 'timestamp': 8.173424036}, {'estimated_chord': 'G', 'timestamp': 10.123900226}, {'estimated_chord': 'Em', 'timestamp': 12.445895691}, {'estimated_chord': 'C', 'timestamp': 14.303492063}, {'estimated_chord': 'D', 'timestamp': 16.625487528}, {'estimated_chord': 'G', 'timestamp': 18.575963718}, {'estimated_chord': 'N', 'timestamp': 21.269478458}, {'estimated_chord': 'G', 'timestamp': 22.569795918}, {'estimated_chord': 'Em', 'timestamp': 24.984671201}, {'estimated_chord': 'C', 'timestamp': 27.02802721}, {'estimated_chord': 'D', 'timestamp': 29.164263038}, {'estimated_chord': 'G', 'timestamp': 31.114739229}, {'estimated_chord': 'Em', 'timestamp': 32.507936507}, {'estimated_chord': 'C', 'timestamp': 35.294331065}, {'estimated_chord': 'D', 'timestamp': 37.523446712}, {'estimated_chord': 'G', 'timestamp': 39.473922902}, {'estimated_chord': 'Em', 'timestamp': 41.703038548}, {'estimated_chord': 'C', 'timestamp': 43.746394557}, {'estimated_chord': 'D', 'timestamp': 45.882630385}, {'estimated_chord': 'G', 'timestamp': 47.647346938}, {'estimated_chord': 'Em', 'timestamp': 50.15510204}, {'estimated_chord': 'C', 'timestamp': 52.198458049}, {'estimated_chord': 'D', 'timestamp': 54.241814058}, {'estimated_chord': 'G', 'timestamp': 56.285170068}, {'estimated_chord': 'G', 'timestamp': 57.771247165}, {'estimated_chord': 'G', 'timestamp': 60.371882086}, {'estimated_chord': 'Em', 'timestamp': 62.879637188}, {'estimated_chord': 'C', 'timestamp': 64.922993197}, {'estimated_chord': 'D', 'timestamp': 66.966349206}, {'estimated_chord': 'G', 'timestamp': 69.102585034}, {'estimated_chord': 'Em', 'timestamp': 70.310022675}, {'estimated_chord': 'C', 'timestamp': 73.375056689}, {'estimated_chord': 'D', 'timestamp': 75.418412698}, {'estimated_chord': 'G', 'timestamp': 77.368888888}, {'estimated_chord': 'G', 'timestamp': 79.969523809}, {'estimated_chord': 'G', 'timestamp': 81.362721088}, {'estimated_chord': 'Em', 'timestamp': 83.777596371}, {'estimated_chord': 'C', 'timestamp': 85.82095238}, {'estimated_chord': 'D', 'timestamp': 88.050068027}, {'estimated_chord': 'G', 'timestamp': 90.000544217}, {'estimated_chord': 'Em', 'timestamp': 92.136780045}, {'estimated_chord': 'C', 'timestamp': 94.273015873}, {'estimated_chord': 'D', 'timestamp': 96.502131519}, {'estimated_chord': 'G', 'timestamp': 98.359727891}, {'estimated_chord': 'Em', 'timestamp': 100.588843537}, {'estimated_chord': 'C', 'timestamp': 102.632199546}, {'estimated_chord': 'D', 'timestamp': 104.861315192}, {'estimated_chord': 'G', 'timestamp': 106.904671201}, {'estimated_chord': 'Em', 'timestamp': 108.94802721}, {'estimated_chord': 'C', 'timestamp': 111.084263038}, {'estimated_chord': 'D', 'timestamp': 113.127619047}, {'estimated_chord': 'G', 'timestamp': 115.263854875}, {'estimated_chord': 'Em', 'timestamp': 117.400090702}, {'estimated_chord': 'C', 'timestamp': 119.443446712}, {'estimated_chord': 'D', 'timestamp': 121.486802721}, {'estimated_chord': 'G', 'timestamp': 123.623038548}, {'estimated_chord': 'G', 'timestamp': 124.458956916}, {'estimated_chord': 'G', 'timestamp': 127.616870748}, {'estimated_chord': 'Em', 'timestamp': 130.031746031}, {'estimated_chord': 'C', 'timestamp': 132.07510204}, {'estimated_chord': 'D', 'timestamp': 134.118458049}, {'estimated_chord': 'G', 'timestamp': 136.06893424}, {'estimated_chord': 'Em', 'timestamp': 138.01941043}, {'estimated_chord': 'C', 'timestamp': 140.341405895}, {'estimated_chord': 'D', 'timestamp': 142.570521541}, {'estimated_chord': 'G', 'timestamp': 144.520997732}, {'estimated_chord': 'N', 'timestamp': 145.449795918}, {'estimated_chord': 'G', 'timestamp': 148.60770975}, {'estimated_chord': 'Em', 'timestamp': 150.929705215}, {'estimated_chord': 'C', 'timestamp': 152.973061224}, {'estimated_chord': 'D', 'timestamp': 155.109297052}, {'estimated_chord': 'G', 'timestamp': 156.966893424}, {'estimated_chord': 'Em', 'timestamp': 159.288888888}, {'estimated_chord': 'C', 'timestamp': 161.239365079}, {'estimated_chord': 'D', 'timestamp': 163.468480725}, {'estimated_chord': 'G', 'timestamp': 165.233197278}, {'estimated_chord': 'Em', 'timestamp': 167.648072562}, {'estimated_chord': 'C', 'timestamp': 169.691428571}, {'estimated_chord': 'D', 'timestamp': 171.73478458}, {'estimated_chord': 'G', 'timestamp': 173.499501133}, {'estimated_chord': 'Em', 'timestamp': 176.007256235}, {'estimated_chord': 'C', 'timestamp': 178.050612244}, {'estimated_chord': 'D', 'timestamp': 180.186848072}, {'estimated_chord': 'G', 'timestamp': 182.3230839}, {'estimated_chord': 'N', 'timestamp': 185.109478458}]
