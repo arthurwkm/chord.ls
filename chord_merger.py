@@ -40,9 +40,12 @@ def merge(extracted_file, scraped):
 #vai criar o dicionário de acordes com base na cifra vinda da cifraclub
 def vectorizeChords(chord):
     newChordVector = []
-    for component in Chord(chord).components():
-        velement = numberfyChordComponent(component)
-        newChordVector.append(velement)
+    try:
+        for component in Chord(chord).components():
+            velement = numberfyChordComponent(component)
+            newChordVector.append(velement)
+    except:
+        pass
     return newChordVector
 
 
