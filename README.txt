@@ -8,6 +8,7 @@ conda install -c conda-forge libsndfile
 conda install -c conda-forge ffmpeg
 pip install ffprobe
 pip install numpy==1.20.3 (essa foi a versão com que testei e também a versão atual (06/06/2021))
+pip install timidity
 pip install chord-extractor
 Se estiver no Windows, instalar: https://code.soundsoftware.ac.uk/projects/vamp-plugin-pack
 pip install PySimpleGUI
