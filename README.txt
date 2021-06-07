@@ -18,3 +18,8 @@ pip install pychord
 
 (Para o linux, pode usar também o sudo apt-get para instalar o que foi instalado com o conda)
 
+para rodar é só rodar python window.py
+
+o chordChanges.json representa os acordes extraídos do módulo de extração 
+o chordMerge.txt representa o debug do processo de merge
+o chorMerger.json representa os acordes finais do código
