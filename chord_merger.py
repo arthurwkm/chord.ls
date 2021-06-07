@@ -6,12 +6,20 @@ import re
 def merge(extracted_file, scraped):
     #transforma os acordes do cifraclub em um dicionário dos acordes corretos que podem aparecer em extracted
     chord_dictionary = processChords(scraped)
+    for j, chord in enumerate(chord_dictionary):
+    	if ("+" in chord):
+    		chord = chord.replace("+","")
+    		for i, letter in enumerate(chord):
+    			if letter.isdigit():
+    				chord_dictionary[j] = chord[:i] + 'maj' + chord[i:]
     chord_vectors = []
     print("chord dictionary (made with scraped chords):")
     print(chord_dictionary)
     #transforma os acordes do dicionario em vetores baseado nos seus componentes
     for chord in chord_dictionary:
-        chord_vectors.append(vectorizeChords(chord))
+    	v = vectorizeChords(chord)
+    	if(v != []):
+        	chord_vectors.append(v)
     #transforma o json em extracted_file em um dict
     f = open(extracted_file)#chordChanges.json
     extracted = json.load(f)
@@ -44,9 +52,12 @@ def vectorizeChords(chord):
         for component in Chord(chord).components():
             velement = numberfyChordComponent(component)
             newChordVector.append(velement)
+        
+        return newChordVector
     except:
-        pass
-    return newChordVector
+        
+        return [10.0, 10.0, 10.0]
+
 
 
 
