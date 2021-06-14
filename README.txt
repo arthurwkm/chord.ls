@@ -20,6 +20,6 @@ pip install pychord
 
 para rodar é só rodar python window.py
 
-o chordChanges.json representa os acordes extraídos do módulo de extração 
+o chordChanges.json representa os acordes extraídos do módulo de extração (essa é a saída final se a música não for reconhecida pela API de reconhecimento)
 o chordMerge.txt representa o debug do processo de merge
 o chorMerger.json representa os acordes finais do código
